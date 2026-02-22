@@ -6,7 +6,7 @@ const projects = [
     title: "AI Career Coach Platform",
     description:
       "An AI-powered carrer coach platform built with React,Tailwind CSS, and integrate AI APIs.",
-    image: "/projects/project1.png",
+    image: "/vivek-portfolio/projects/project1.png",
     tags: ["React", "TailwindCSS", "Next.js", "Gemini AI API", "NeonDB", "Prisma"],
     demoUrl: "#",
     githubUrl: "#",
@@ -15,19 +15,24 @@ const projects = [
     id: 2,
     title: "AI Resume Builder",
     description:
-      " An AI-powered Resume Builder web app using MERN Stack and AI .",
-    image: "/projects/project2.png",
-    tags: ["React JS", "Tailwind CSS", "Node.js", "MongoDB", "Express jS",],
+      "An AI-powered Resume Builder web app using MERN Stack and AI.",
+    image: "/vivek-portfolio/projects/project2.png",
+    tags: ["React JS", "Tailwind CSS", "Node.js", "MongoDB", "Express JS"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
     title: "A Full-Stack Dating Web App",
-    description:
-      "An advanced dating platform ",
-    image: "/projects/project3.png",
-    tags: ["Next.js", "Supabase", "PostgreSQL", "Stream API",  "Realtime Chat", "Video Call APIs"
+    description: "An advanced dating platform",
+    image: "/vivek-portfolio/projects/project3.png",
+    tags: [
+      "Next.js",
+      "Supabase",
+      "PostgreSQL",
+      "Stream API",
+      "Realtime Chat",
+      "Video Call APIs",
     ],
     demoUrl: "#",
     githubUrl: "#",
@@ -52,7 +57,7 @@ export const ProjectsSection = () => {
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              {/* image */}
+              {/* IMAGE */}
               <div className="h-48 overflow-hidden">
                 <img
                   src={project.image}
@@ -61,9 +66,8 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              {/* content */}
+              {/* CONTENT */}
               <div className="p-6">
-                {/* tags */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
@@ -83,7 +87,6 @@ export const ProjectsSection = () => {
                   {project.description}
                 </p>
 
-                {/* links */}
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
@@ -108,7 +111,7 @@ export const ProjectsSection = () => {
           ))}
         </div>
 
-        {/* github button */}
+        {/* GITHUB BUTTON */}
         <div className="text-center mt-12">
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"

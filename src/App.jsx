@@ -6,8 +6,8 @@ import { Toaster } from "@/components/ui/toaster";
 function App() {
   return (
     <>
-    <Toaster />
-      <BrowserRouter>
+      <Toaster />
+      <BrowserRouter basename="/vivek-portfolio">
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
@@ -18,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-
