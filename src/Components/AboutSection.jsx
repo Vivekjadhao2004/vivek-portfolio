@@ -39,12 +39,11 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
 
-              {/* ✅ FINAL RESUME LINK (GitHub Pages FIX) */}
+              {/* ✅ FINAL FIXED RESUME LINK */}
               <a
-                href={import.meta.env.BASE_URL + "resume.pdf"}
+                href="/vivek-portfolio/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                download
                 className="cosmic-button"
               >
                 Download CV
